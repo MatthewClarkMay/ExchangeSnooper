@@ -34,9 +34,9 @@ echo "Using the following search query: $SearchQuery"
 #Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery $SearchQuery -DeleteContent
 
 If ($Force.IsPresent) {
-    Get-Mailbox $VictimMailbox | Search-Mailbox -SearchQuery $SearchQuery -DeleteContent -Force
+    Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery $SearchQuery -DeleteContent -Force
 } Else {
-    Get-Mailbox $VictimMailbox | Search-Mailbox -SearchQuery $SearchQuery -DeleteContent
+    Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery $SearchQuery -DeleteContent
 }
 
 echo "Process Complete!"
