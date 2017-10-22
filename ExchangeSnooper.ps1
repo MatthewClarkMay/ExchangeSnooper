@@ -7,9 +7,9 @@ param(
       [Parameter(Mandatory=$true)][string]$From,
       [Parameter(Mandatory=$true)][string]$Subject,
       [Parameter(Mandatory=$false)][string]$Body,
-      [Parameter(Mandatory=$false)][string]$VictimMailbox,
-      [Parameter(Mandatory=$false)][string]$LogMailbox,
-      [Parameter(Mandatory=$false)][string]$LogFolder,
+      #[Parameter(Mandatory=$false)][string]$VictimMailbox,
+      #[Parameter(Mandatory=$false)][string]$LogMailbox,
+      #[Parameter(Mandatory=$false)][string]$LogFolder,
       [Parameter(Mandatory=$false)][switch]$Force
       )
 
