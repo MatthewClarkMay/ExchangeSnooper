@@ -9,6 +9,3 @@ Active Directory account with:
 - import/export mailbox permissions
 
 PC or Server with Exchange Management Shell installed.
-
-# Setup
-TBD
