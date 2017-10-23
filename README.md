@@ -8,5 +8,7 @@ Active Directory account with:
 - read/write permissions on all mailboxes
 - import/export mailbox permissions
 
+PC or Server with Exchange Management Shell installed.
+
 # Setup
 TBD
