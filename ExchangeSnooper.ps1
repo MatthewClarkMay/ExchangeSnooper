@@ -5,7 +5,8 @@
     Phishing emails often end up in user mailboxes; Incident responders should be able to easily remove them.
 .EXAMPLE
     C:\PS> ./ExchangeSnooper.ps1 -From user@exaple.com -Subject "Phishy"
-    C:\PS> ./ExchangeSnooper.ps1 -From user@exaple.com -Subject "Phishy" -Body "Click Here"
+    C:\PS> ./ExchangeSnooper.ps1 -From user@exaple.com -Subject "Phishy" -Force
+    C:\PS> ./ExchangeSnooper.ps1 -From user@exaple.com -Subject "Phishy" -Body "Click Here" -Force
 .NOTES
     Author: Matt May
 .LINK
