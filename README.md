@@ -4,8 +4,8 @@ I threw this short script together to ease the phishing incident response proces
 I am very inexperienced with Powershell so please contribute if you have any ideas. I love learning from those who have better ideas than myself.
 
 # Requirements
-Active Directory account with:
-- read/write permissions on all mailboxes
-- import/export mailbox permissions
+Active Directory account with the following roles:
+- Mail Recipients - https://technet.microsoft.com/en-us/library/dd876911(v=exchg.150).aspx
+- Mailbox Search - https://technet.microsoft.com/en-us/library/dd876958(v=exchg.150).aspx
 
 PC or Server with Exchange Management Shell installed.
