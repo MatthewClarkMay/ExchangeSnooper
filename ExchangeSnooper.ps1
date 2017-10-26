@@ -1,5 +1,16 @@
-## Author: Matt May
-## Make sure user has read/write permission on all mailboxes AND import/export mailbox permission
+<#
+.SYNOPSIS
+    This script searches for and deletes messages from Exchange.
+.DESCRIPTION
+    Phishing emails often end up in user mailboxes; Incident responders should be able to easily remove them.
+.EXAMPLE
+    C:\PS> ./ExchangeSnooper.ps1 -From user@exaple.com -Subject "Phishy"
+    C:\PS> ./ExchangeSnooper.ps1 -From user@exaple.com -Subject "Phishy" -Body "Click Here"
+.NOTES
+    Author: Matt May
+.LINK
+    https://github.com/MatthewClarkMay/ExchangeSnooper
+#>
 
 ## Parameter validation
 [cmdletbinding()]
