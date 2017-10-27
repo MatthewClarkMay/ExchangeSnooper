@@ -7,6 +7,6 @@ I am very inexperienced with Powershell so please contribute if you have any ide
 Active Directory account with the following roles:
 - Mail Recipients - https://technet.microsoft.com/en-us/library/dd876911(v=exchg.150).aspx
 - Mailbox Search - https://technet.microsoft.com/en-us/library/dd876958(v=exchg.150).aspx
-- Mailbox Import Export (If running Exchange 2010) - https://technet.microsoft.com/en-us/library/ee633452(v=exchg.141).aspx
+- Mailbox Import Export - https://technet.microsoft.com/en-us/library/ee633452(v=exchg.141).aspx
 
 PC or Server with Exchange Management Shell installed.
